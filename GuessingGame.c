@@ -11,7 +11,11 @@
 int main()
 {
     //generate the pseudo number generator
-    int number = 50;
+    char Name;
+    printf("Please Confirm your good name; \n");
+    scanf("%s", &Name);
+    printf("Dear %c, welcome to Immanuel's game of guessing numbers\n", Name);
+    int number = 5;
     srand(time(NULL));
     int randomNumber = rand() % (number + 1);
     //ask user to guess 
