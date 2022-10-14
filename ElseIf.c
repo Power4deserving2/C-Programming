@@ -27,6 +27,25 @@ int main()
     else if (input == 4)
     {
         printf("You are now exiting the app.\n");
+
+        printf("Would you like to save your changes? Y/N:  ");
+        char ans;
+
+        getchar();
+
+        scanf("%c", &ans);
+        if(ans == 'Y' || ans == 'y')
+        {
+            printf("Saving changes...\n");
+        }
+        else if(ans == 'N' || ans == 'n')
+        {
+            printf("Whatever man!!\n");
+        }
+        else
+        {
+            printf("Unethical haxing detected. Break down in 5.. 4.. 3.. 2.. 1.. BOOM!!!!\n");
+        }
     }
     else 
     {
