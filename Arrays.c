@@ -2,9 +2,17 @@
 
 int main()
 {
-    int myGrades[] = {900, 11, 12, 13, 14, 43 ,23, 32, 32, 324, 2343, 32543};
-  
-    printf("%d\n", myGrades[0]);
+    int size = 5;
+    int myGrades[size];
+    myGrades[0] = 15;
+    myGrades[1] = 20;
+    myGrades[2] = 25;
+    myGrades[3] = 30;
+    myGrades[4] = 35;
 
+    for (int i = 0; i < size; i++)
+    {
+        printf("%d \n", myGrades[i]);
+    }
     return 0;
 }
