@@ -1,4 +1,8 @@
 #include <stdio.h>
+/*****
+*Author: Immanuel Peter.
+*Description: Below hand is a simple program to aid in my practise for loops in C programming.
+*****/
 
 int main()
 {
